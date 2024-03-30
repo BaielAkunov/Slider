@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            list-style:none;
+            font-size: 2.5rem;
+        }
+        ul {
+            display: flex;
+            
+            gap: 2rem;
+            padding: 1.4rem;   
+        }
+        li{
+            margin-right: 5rem;
+            
+        }
+        .wrapper{
+            padding-block: 1rem;
+            border-block: 0.2rem outset blue;
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        .change {
+            width: 2rem;
+            height: 2rem;
+            
+        }
+        .down {
+            border-top: 2rem solid red;
+            border-left: 1rem solid transparent;
+            border-right: 1rem solid transparent;
+        }
+        .up {
+            border-bottom: 2rem solid green;
+            border-left: 1rem solid transparent;
+            border-right: 1rem solid transparent;
+        }
+       
+            </style>
+            </head>
+            </html>
+<body>
+    <div class="wrapper">
+        <marquee scrollamount="20">
+            <ul>
+                <li>
+                    <span class="change down"></span>
+                    <span class="currency">USD</span>
+                    <span class="price">89.4708</span>
+                </li>
+                <li>
+                    <span class="change down"></span>
+                    <span class="currency">EUR</span>
+                    <span class="price">96.4316</span>
+                </li>
+                <li>
+                    <span class="change up"></span>
+                    <span class="currency">CNY</span>
+                    <span class="price">0.0807</span>
+                </li>
+                <li>
+                    <span class="change down"></span>
+                    <span class="currency">RUB</span>
+                    <span class="price">0.96610</span>
+                </li>
+                <li>
+                    <span class="change up"></span>
+                    <span class="currency">KZT</span>
+                    <span class="price">0.20010</span>
+                </li>
+            </ul>
+            
+        </marquee>
+    </div>
+</body>
+</html>
